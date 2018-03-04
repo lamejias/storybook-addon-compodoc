@@ -7,7 +7,16 @@
     "prepare": "npm run build",
     "build": "rm -rf ./dist && babel -d dist ./src/"
   },
-  "author": "Wojciech Grabowski <wojtek@wojciech-grabowski.pl>",
+  "keywords": [
+    "storybook",
+    "addon",
+    "compodoc"
+  ],
+  "author": {
+    "email": "wojtek@wojciech-grabowski.pl",
+    "name": "Wojciech Grabowski",
+    "url": "http://wojciech-grabowski.pl"
+  },
   "license": "ISC",
   "dependencies": {},
   "peerDependencies": {
