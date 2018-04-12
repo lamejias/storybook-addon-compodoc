@@ -1,7 +1,7 @@
 {
-  "name": "storybook-addon-compodoc",
-  "version": "0.0.1-alpha.2",
-  "description": "Adds Compodoc panel to Storybook",
+  "name": "storybook-addon-compodoc-templates",
+  "version": "0.0.1-alpha.3",
+  "description": "Adds Compodoc panel to Storybook with support for custom templates",
   "main": "dist/index.js",
   "scripts": {
     "prepare": "npm run build",
@@ -13,9 +13,8 @@
     "compodoc"
   ],
   "author": {
-    "email": "wojtek@wojciech-grabowski.pl",
-    "name": "Wojciech Grabowski",
-    "url": "http://wojciech-grabowski.pl"
+    "email": "lmejias@certain.com",
+    "name": "Lathaniel"
   },
   "license": "ISC",
   "dependencies": {},
