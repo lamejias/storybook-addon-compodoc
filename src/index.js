@@ -7,8 +7,9 @@ export const withCompodoc = (storyFn, opts = {}) =>
   ((context) => {
     const channel = addons.getChannel();
     const story = storyFn(context);
+    const componentName = story.component ? story.component.name : story.componentName;
 
-    channel.emit(`${ORG_KEY}/${ADDON_KEY}/${WITH_COMPODOC_KEY}`, opts, story.component.name);
+    channel.emit(`${ORG_KEY}/${ADDON_KEY}/${WITH_COMPODOC_KEY}`, opts, componentName);
 
     return story
   })
